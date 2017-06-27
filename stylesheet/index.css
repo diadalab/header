@@ -31,14 +31,8 @@ body {
 ul li {
   list-style: none; }
 
-.menu_mobile {
-  -webkit-transition: opacity 0.4s linear;
-  transition: opacity 0.4s linear; }
-
 .active {
-  opacity: 1;
-  -webkit-transition: opacity 0.4s linear;
-  transition: opacity 0.4s linear; }
+  opacity: 1; }
 
 header {
   display: -webkit-box;
@@ -92,7 +86,9 @@ header {
   height: 200px;
   opacity: 0;
   border-style: solid;
-  border-color: blue; }
+  border-color: blue;
+  -webkit-transition: opacity 0.4s linear;
+  transition: opacity 0.4s linear; }
 
 .menu_mobile.active {
   opacity: 0.95; }
